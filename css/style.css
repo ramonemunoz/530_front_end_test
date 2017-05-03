@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:900');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #949494;
+}
+
+.navbar {
+  margin-bottom: 25px;
+}
+
+.navbar-nav{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+}
+
+.navbar-nav a{
+  color: #000000;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-right: 0px;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+
+.logo{
+  width: 25%;
+}
+
+.search{
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  border: none;
+  background-color: #eeeeee;
+  box-shadow: none;
+  margin-left: 0px;
+}
+
+.search::placeholder{
+  color: #000000;
+}
+.searchBtn{
+  border: none;
+  margin-left: -8px;
+  background-color: #eeeeee;
+  box-shadow: none;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height:auto;
+    display: block;
+}
+
+.socialHeader{
+  margin-top: 15px;
+}
+
+.social{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+
+}
+
+.socialFooter{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.socialLinks{
+    display: inline;
+}
+
+.heroSection{
+  height: 800px;
+  background-image: url(../images/Homepage_Hero_1.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 60px;
+}
+
+.heroHeader{
+  color: #FFFFFF;
+  font-size: 64px;
+  margin-top: 20%;
+  margin-bottom: 15px;
+}
+
+.heroHeaderMobile{
+  color: #000000;
+  font-size: 34px;
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.heroText{
+  color: #FFFFFF;
+}
+
+.heroTextMobile{
+  color: #000000;
+  text-align: center;
+}
+
+.heroButton{
+  font-family: 'Roboto', sans-serif;
+  padding: 8px 15px;
+  background-color: rgba(0,0,0,.5);
+  color: #81c149;
+  border: none;
+}
+
+.heroButtonMobile{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 8px 15px;
+  background-color: rgba(0,0,0,.5);
+  color: #81c149;
+  border: none;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+.smallHeadings{
+  font-family: 'Roboto', sans-serif;
+  color: #81c149;
+}
+
+.footerText{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #000000;
+}
+
+.addressContainer{
+  margin-bottom: 25px;
+}
+
+.officeNumber{
+  margin-right: 10px;
+}
+
+.form-inline{
+  display: inline-block;
+}
+
+.newsletter{
+  float: right;
+}
+
+.newsletterEmail{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  border: none;
+  background-color: #eeeeee;
+  box-shadow: none;
+  margin-left: 0px;
+  padding: 5px 20px;
+}
+
+.singUpBtn{
+  font-family: 'Roboto', sans-serif;
+  color: #bebebe;
+  font-size: 12px;
+  border: 1px solid #eeeeee ;
+  border-radius: 5px;
+  background-color: #999999;
+  box-shadow: none;
+  margin-left: 5px;
+  padding: 8px 20px;
+}
+
+.copyRight{
+  font-size: 11px;
+  color: #000000;
+}
+
+.navbar-toggle {
+  margin-top: 25px;
+}
+
+/* Media Queries */
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 320px) {
+  p{
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .socialHeader{
+    display: none;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+  .navbar-brand{
+   float: none;
+   padding: 0px;
+  }
+  .navbar>.container .navbar-brand,
+  .navbar>.container-fluid .navbar-brand{
+    margin-left: 0px;
+  }
+  .navbar-brand img{
+   margin: 0 auto;
+   display: block;
+   padding-bottom: 10px;
+  }
+  .heroSection{
+    height: 300px;
+    margin-bottom:0px;
+  }
+  .heroContentNormal{
+    display: none;
+  }
+  .heroSectionMobile{
+    display: block;
+  }
+  .smallHeadings{
+    display: none;
+  }
+  .newsletter{
+    float: none;
+  }
+  .addressInnerContainer{
+    margin-bottom: 25px;
+  }
+  .form-inline{
+    display: inline-block;
+    display: -webkit-inline-box;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  p{
+    font-size: 14px;
+    line-height: 1.42;
+  }
+  .heroContentNormal{
+    display: block;
+  }
+  .heroSectionMobile{
+    display: none;
+  }
+  .heroSection{
+    height: 800px;
+    margin-bottom: 60px;
+  }
+  .smallHeadings{
+    display: block;
+  }
+  .newsletter{
+    float: right;
+  }
+  .socialHeader{
+    display: block;
+  }
+}
